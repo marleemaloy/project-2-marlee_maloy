@@ -116,7 +116,7 @@ a:hover{
 	color: #3a3a3a;
     font-weight: 400;
     margin: 0;
-    padding: 1rem 1.19rem;
+    padding: 1rem .97rem;
     font-size: 1.20em;
 }
 
@@ -157,14 +157,13 @@ a:hover{
 /* Latest News Section */
 
 #news{
-    height: 97rem;
+    min-height: 97rem;
 	background-color: white;
 	box-shadow: 0 0 2px rgba(6,8,8,0.15);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    overflow: auto;
 }
 
 #news h2{
@@ -191,6 +190,7 @@ line{
 
 #news img{
    width: 100%;
+   height: auto;
 }
 
 #news a{
