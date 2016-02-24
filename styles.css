@@ -95,7 +95,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     height: 14rem;
-    background: url(images/hero-homepage.jpg) center center / cover no-repeat;
+    background: url(images/home/hero-homepage.jpg) center center / cover no-repeat;
 }
 
 #hero-homepage h1{
@@ -378,7 +378,7 @@ line{
 /* About page */
 
 #hero-aboutpage{
-	background: background: url(images/hero-aboutpage.jpg) center center / cover no-repeat;
+	background: background: url(images/about/hero-aboutpage.jpg) center center / cover no-repeat;
 }
 
 
