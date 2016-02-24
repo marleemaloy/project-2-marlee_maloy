@@ -6,6 +6,7 @@ body{
 	background-color: #f2f2f2;
 	margin-top:  76px;
 	-webkit-font-smoothing: antialiased;
+	margin-left: 0;
 }
 
 small{
@@ -55,6 +56,10 @@ header>a{
 	margin-right: auto;
 }
 
+header>a:hover{
+	border-bottom: none;
+}
+
 #logo{
 	padding: .65em;
 }
@@ -95,7 +100,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     height: 14rem;
-    background: url(images/hero-homepage.jpg) center center / cover no-repeat;
+    background: url(images/home/hero-homepage.jpg) center center / cover no-repeat;
 }
 
 #hero-homepage h1{
@@ -267,6 +272,23 @@ line{
     text-decoration: none;
 }
 
+/* About Page*/
+
+#hero-aboutpage{
+	background: url(images/about/hero-aboutpage.jpg) center center / cover no-repeat;
+}
+
+#hero-aboutpage h1{
+	margin-bottom: 0;
+    color: white;
+}
+
+#hero-aboutpage p{
+	font-weight: bold;
+    color: white;
+    margin-top: 0;
+}
+
 /* Breakpoints */
 
 @media screen and (min-width: 450px) {
@@ -375,11 +397,8 @@ line{
 
 }
 
-/* About page */
 
-#hero-aboutpage{
-	background: background: url(images/hero-aboutpage.jpg) center center / cover no-repeat;
-}
+
 
 
 
