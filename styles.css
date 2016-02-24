@@ -193,6 +193,7 @@ line{
 #news img{
    width: 100%;
    height: auto;
+   max-width: 360px;
 }
 
 #news a{
@@ -253,8 +254,8 @@ line{
 	font-size: .80rem;
 }
 
-.social-icons-footer{
-	display: flex;
+.social-icons-footer a{
+    text-decoration: none;
 }
 
 /* Breakpoints */
@@ -348,6 +349,14 @@ line{
 	padding: 2rem 6.55rem;
     font-size: 2.39rem;
 }
+
+@media screen and (min-width: 1000px) {
+	#news ul{
+		display: flex;
+		flex-flow: row nowrap;
+	}
+}
+
 
 
 
