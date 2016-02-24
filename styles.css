@@ -36,6 +36,10 @@ small{
     height: 14rem;
 }
 
+.center{
+	text-align: center;
+}
+
 /* Initial styles/ Home Page*/
 
 /*Header and navigation*/
@@ -274,9 +278,20 @@ line{
 
 /* About Page*/
 
+/* Hero*/
+
 #hero-aboutpage{
 	background: url(images/about/hero-aboutpage.jpg) center center / cover no-repeat;
 }
+
+/* Our Story */
+
+.our-story{
+	padding: 0 1rem;
+}
+
+
+
 
 
 /* Breakpoints */
