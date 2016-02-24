@@ -86,7 +86,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     height: 14rem;
-    background: url(images/hero.jpg) no-repeat center center;
+    background: url(images/hero.jpg) center center / cover no-repeat;
 }
 
 #hero h1{
@@ -157,7 +157,6 @@ a:hover{
 /* Latest News Section */
 
 #news{
-    min-height: 97rem;
 	background-color: white;
 	box-shadow: 0 0 2px rgba(6,8,8,0.15);
     display: flex;
@@ -179,13 +178,15 @@ line{
 
 #news ul{
     display: flex;
-    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     list-style: none;
     padding-left: 0;
 }
 
 #news li{
    margin: 1em .5em;
+   max-width: 360px;
 }
 
 #news img{
@@ -205,10 +206,9 @@ line{
 /* Footer Top */
 
 .footer-top{
-	background-color: #F0F0F0;
-	height: 24rem;
 	display: flex;
     flex-flow: row wrap;
+    box-shadow: 0 0 2px rgba(6,8,8,0.15);
 }
 
 .footer-top ul{
@@ -227,19 +227,16 @@ line{
     font-size: 1rem;
 }
 
-.resources-column, .about-column, .product-column{
-	padding: .5rem;
-}
-
-.support-column{
-	padding-left: 2.3rem;
+.resources-column, .about-column, .product-column, .support-column{
+	padding: .5rem 0;
+	flex: 1;
+	min-width: 145px;
 }
 
 /* Footer Bottom */
 
 .footer-bottom{
-	background-color: #F6F6F6;
-	height: 10rem;
+	background-color: #fcfcfc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,6 +250,73 @@ line{
 
 .footer-bottom p{
 	font-size: .80rem;
+}
+
+/* Breakpoints */
+
+@media screen and (min-width: 450px) {
+	#services li{
+		flex-basis: calc(25% - 20px)
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+		
+    .main-nav a{
+		font-size: .95rem;
+	}
+
+	#hero{
+		height: 23rem;
+	}
+
+	#hero h1{
+		font-size: 3rem;
+	}
+
+	#hero p{
+		font-size: 1.5rem;
+	}
+
+	#intro{
+		height: 18rem;
+	}
+
+	#intro p{
+	    padding: 1rem 1.65rem;
+        font-size: 1.9rem;
+	}
+
+	#services h2{
+		font-size: 1.8rem;
+	}
+
+	#news h2{
+		font-size: 1.8rem;
+	}
+
+	.footer-top{
+	    height: 15rem;
+        align-items: center;
+	}
+
+	.product-column{
+		margin-top: 1.65rem;
+	}
+
+	.fa-stack.fa-2x{
+		font-size: 3.8em;
+	}
+
+	#services p{
+		font-size: 1rem;
+	}
+
+	#news li{
+		max-width: 40%;
+	}
+
 }
 
 
