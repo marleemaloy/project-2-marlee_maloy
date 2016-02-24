@@ -27,6 +27,15 @@ small{
 	margin: 0 auto;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+}
+
+/* Initial styles/ Home Page*/
 
 /*Header and navigation*/
 
@@ -81,12 +90,12 @@ a:hover{
 /* Hero image */
 
 #hero-homepage{
-    display: flex;
+	display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 14rem;
-    background: url(images/hero.jpg) center center / cover no-repeat;
+    background: url(images/hero-homepage.jpg) center center / cover no-repeat;
 }
 
 #hero-homepage h1{
@@ -365,6 +374,14 @@ line{
 	}
 
 }
+
+/* About page */
+
+#hero-aboutpage{
+	background: background: url(images/hero-aboutpage.jpg) center center / cover no-repeat;
+}
+
+
 
 
 
