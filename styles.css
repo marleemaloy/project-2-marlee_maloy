@@ -103,12 +103,12 @@ a:hover{
     background: url(images/home/hero-homepage.jpg) center center / cover no-repeat;
 }
 
-#hero-homepage h1{
+.hero-h1{
 	margin-bottom: 0;
     color: white;
 }
 
-#hero-homepage p{
+.hero-p{
 	font-weight: bold;
     color: white;
     margin-top: 0;
@@ -278,16 +278,6 @@ line{
 	background: url(images/about/hero-aboutpage.jpg) center center / cover no-repeat;
 }
 
-#hero-aboutpage h1{
-	margin-bottom: 0;
-    color: white;
-}
-
-#hero-aboutpage p{
-	font-weight: bold;
-    color: white;
-    margin-top: 0;
-}
 
 /* Breakpoints */
 
