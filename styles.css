@@ -80,7 +80,7 @@ a:hover{
 
 /* Hero image */
 
-#hero{
+#hero-homepage{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,12 +89,12 @@ a:hover{
     background: url(images/hero.jpg) center center / cover no-repeat;
 }
 
-#hero h1{
+#hero-homepage h1{
 	margin-bottom: 0;
     color: white;
 }
 
-#hero p{
+#hero-homepage p{
 	font-weight: bold;
     color: white;
     margin-top: 0;
@@ -273,15 +273,15 @@ line{
 		font-size: .95rem;
 	}
 
-	#hero{
+	#hero-homepage{
 		height: 23rem;
 	}
 
-	#hero h1{
+	#hero-homepage h1{
 		font-size: 3rem;
 	}
 
-	#hero p{
+	#hero-homepage p{
 		font-size: 1.5rem;
 	}
 
@@ -330,15 +330,15 @@ line{
 }
 
 @media screen and (min-width: 950px) {
-	#hero{
+	#hero-homepage{
 		height: 30rem;
 	}
 
-	#hero h2{
+	#hero-homepage h2{
 		font-size: 4rem;
 	}
 
-	#hero p{
+	#hero-homepage p{
 		font-size: 2rem; 
 	}
 
@@ -350,11 +350,20 @@ line{
     font-size: 2.39rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
 	#news ul{
 		display: flex;
 		flex-flow: row nowrap;
 	}
+
+	.main-nav ul{
+		margin-right: 6rem;
+	}
+
+	#logo{
+		margin-left: 6rem;
+	}
+
 }
 
 
