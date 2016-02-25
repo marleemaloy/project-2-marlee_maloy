@@ -301,15 +301,31 @@ line{
 /* Our Story */
 
 .our-story{
-	padding: 0 1rem;
+	padding: 3rem 1rem;
+    background: white;
+    box-shadow: 0 0 2px rgba(6,8,8,0.15);
+}
+
+.our-story h2{
+	margin-top: 0;
 }
 
 /* Who we are */
 
 .who-we-are{
-	display: flex;
-	flex-flow: column wrap;
-	flex-basis: calc(50% - 10px);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+.who-we-are img{
+	max-width: 150px;
+	max-height: 150px;
+    box-shadow: 0 0 10px black;
+    border-radius: 50%;
+
 }
 
 
