@@ -320,12 +320,20 @@ line{
     padding: 3rem 0;
 }
 
+
 .who-we-are img{
 	max-width: 150px;
 	max-height: 150px;
     box-shadow: 0 0 10px black;
     border-radius: 50%;
+    transition: transform .4s ease;
+    transform: scale(1);
 
+}
+
+.who-we-are img:hover{
+	box-shadow: 0 0 50px #30c0d8;
+    transform: translate(0%, 10px) scale(1.50);
 }
 
 
