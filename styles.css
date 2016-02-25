@@ -304,6 +304,14 @@ line{
 	padding: 0 1rem;
 }
 
+/* Who we are */
+
+.who-we-are{
+	display: flex;
+	flex-flow: column wrap;
+	flex-basis: calc(50% - 10px);
+}
+
 
 
 
