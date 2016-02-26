@@ -317,13 +317,14 @@ line{
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
-    padding: 3rem 0;
+        padding: 3rem 1rem;
 }
 
 
 .who-we-are img{
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 200px;
+	max-height: 200px;
+	margin: 2rem 0;
     box-shadow: 0 0 10px black;
     border-radius: 50%;
     transition: transform .4s ease;
@@ -334,6 +335,16 @@ line{
 .who-we-are img:hover{
 	box-shadow: 0 0 50px #30c0d8;
     transform: translate(0%, 10px) scale(1.50);
+}
+
+.who-we-are h3{
+	margin-bottom: 0;
+}
+
+.about-us-text{
+	font-size: .85rem;
+	padding: 0 .5rem 1rem .5rem
+
 }
 
 
