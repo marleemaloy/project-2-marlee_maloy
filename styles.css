@@ -334,7 +334,7 @@ line{
 
 .who-we-are img:hover{
 	box-shadow: 0 0 50px #30c0d8;
-    transform: translate(0%, 10px) scale(1.50);
+    transform: translate(0%, 10px) scale(1.40);
 }
 
 .who-we-are h3{
@@ -388,7 +388,7 @@ line{
 	border: none;
 	padding: .75rem;
 	margin: 0;
-	transition: transform, background, border-radius, .5s ease;
+	transition: transform, background, .5s ease;
     transform: scale(1);
 }
 
