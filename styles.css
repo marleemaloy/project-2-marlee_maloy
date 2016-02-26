@@ -388,12 +388,17 @@ line{
 	border: none;
 	padding: .75rem;
 	margin: 0;
+	transition: transform, background, border-radius, .5s ease;
+    transform: scale(1);
 }
 
 .contact-us-button:hover{
 	background: #ff5339;
     box-shadow: 0 0 6px white;
+    transform: scale(1.10)
 }
+
+
 
 
 /* Breakpoints */
