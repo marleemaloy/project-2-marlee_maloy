@@ -317,7 +317,7 @@ line{
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
-        padding: 3rem 1rem;
+    padding: 3rem 1rem;
 }
 
 
@@ -347,8 +347,56 @@ line{
 
 }
 
+/* Our Priorities */
 
+.our-priorities{
+	box-shadow: 0 0 2px rgba(6,8,8,0.15);
+    padding: 3rem 1rem;
+    background: white;
+}
 
+.our-priorities ul{
+	padding-top: 1.5rem;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.our-priorities li{
+	text-align: center;
+}
+
+/* About page Call to Action */
+
+.about-page-cta{
+	background-color: #30c0d8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-page-cta h3{
+    margin-top: 0;
+    padding-top: 2rem;
+    color: white;
+}
+
+.contact-us-button{
+	color: white;
+	background: #FF6952;
+	border-radius: 10%;
+	border: none;
+}
+
+.contact-us-button:hover{
+	background: #ff5339;
+    box-shadow: 0 0 6px white;
+}
+}
+
+.about-page-cta h4{
+	margin: 0;
+
+}
 
 
 /* Breakpoints */
