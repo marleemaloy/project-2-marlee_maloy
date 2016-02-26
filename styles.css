@@ -124,7 +124,7 @@ a:hover{
 /* Intro Content */
 
 #intro{
-	height: 14rem;
+	padding: 3rem 1.95rem;
 	background-color: white;
 	box-shadow: 0 0 2px rgba(6,8,8,0.15);
 	display: flex;
@@ -137,13 +137,13 @@ a:hover{
 	color: #3a3a3a;
     font-weight: 400;
     margin: 0;
-    padding: 1rem .97rem;
-    font-size: 1.20em;
+    font-size: 1.33rem;
 }
 
 /* Services Content */
 
 #services{
+	padding: 1rem 0 1.5rem 0;
 }
 
 #services h2{
@@ -184,6 +184,7 @@ a:hover{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 2rem 0;
 }
 
 #news h2{
@@ -417,24 +418,31 @@ line{
 	}
 
 	#intro{
-		height: 18rem;
+		padding: 6rem 2rem;
 	}
 
 	#intro p{
-	    padding: 1rem 1.65rem;
-        font-size: 1.9rem;
+        font-size: 1.8rem;
 	}
 
 	#services{
-		height: 23rem;
+	    padding: 2.5rem 0 3.5rem 0;
 	}
 
 	#services h2{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
+	}
+
+    #services p{
+		font-size: 1rem;
+	}
+
+	#news{
+		padding: 3.5rem 0;
 	}
 
 	#news h2{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 
 	.footer-top{
@@ -448,10 +456,6 @@ line{
 
 	.fa-stack.fa-2x{
 		font-size: 3.8em;
-	}
-
-	#services p{
-		font-size: 1rem;
 	}
 
 	#news li{
