@@ -106,18 +106,6 @@ a:hover{
 /* Hero image */
 
 #hero-homepage{
-    display: -webkit-box;     
-    display: -moz-box;         
-    display: -ms-flexbox;     
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    -webkit-justify-content: center;
-    -webkit-align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 14rem;
     background: url(images/home/hero-homepage.jpg) center center / cover no-repeat;
 }
 
@@ -372,7 +360,7 @@ line{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 2rem;
+	padding: 2rem 0 3rem 0
 }
 
 .about-page-cta h3{
@@ -416,15 +404,15 @@ line{
 		font-size: .95rem;
 	}
 
-	#hero-homepage{
+	.hero{
 		height: 23rem;
 	}
 
-	#hero-homepage h1{
+	.hero-h1{
 		font-size: 3rem;
 	}
 
-	#hero-homepage p{
+	.hero-p{
 		font-size: 1.5rem;
 	}
 
@@ -473,15 +461,15 @@ line{
 }
 
 @media screen and (min-width: 950px) {
-	#hero-homepage{
+	.hero{
 		height: 30rem;
 	}
 
-	#hero-homepage h2{
+	.hero-h1{
 		font-size: 4rem;
 	}
 
-	#hero-homepage p{
+	.hero-p{
 		font-size: 2rem; 
 	}
 
