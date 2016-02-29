@@ -405,7 +405,6 @@ line{
 
 .contact-info{
 	padding: 3rem 1rem;
-	background: white;
 	box-shadow: 0 0 2px rgba(6,8,8,0.15);
 
 }
@@ -433,8 +432,9 @@ line{
 }
 
 .google-maps{
+	padding: 3rem 1rem;
+	background: white;
 }
-
 
 
 /* Breakpoints */
@@ -540,6 +540,24 @@ line{
     	padding: 1rem;
     }
 
+    /* Contact Page*/
+
+    .contact-info h2{
+    	font-size: 1.8rem;
+    }
+
+    .google-maps h2{
+    	font-size: 1.8rem;
+    }
+
+    .contact-info{
+    	padding: 4rem 3rem;
+    }
+
+    .google-maps{
+    	padding: 4rem 3rem;
+    }
+
 }
 
 @media screen and (min-width: 750px) {
@@ -623,6 +641,10 @@ line{
     .who-we-are p{
     	padding: 0 7rem;
     }
+
+    .google-maps{
+		padding: 6rem 8rem;
+	}
 }
 
 @media screen and (min-width: 1100px) {
