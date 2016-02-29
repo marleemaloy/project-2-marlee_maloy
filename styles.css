@@ -573,6 +573,7 @@ line{
 .google-maps{
 	padding: 3rem 1rem;
 	background: white;
+	box-shadow: 0 0 2px rgba(6,8,8,0.15);
 }
 
 
