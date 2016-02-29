@@ -398,7 +398,7 @@ line{
 .contact-us-button:hover{
 	background: #ff5339;
     box-shadow: 0 0 6px white;
-    transform: scale(1.10)
+    transform: scale(1.10);
 }
 
 /* Contact Page */
@@ -552,6 +552,18 @@ line{
 
     .contact-info h2{
     	font-size: 1.8rem;
+    }
+
+    .north-american-contact p{
+    	font-size: 1.16rem;
+    }
+
+    .europe-contact p{
+    	font-size: 1.16rem;
+    }
+
+    .apac-contact p{
+    	font-size: 1.16rem;
     }
 
     .google-maps h2{
