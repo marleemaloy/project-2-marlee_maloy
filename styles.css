@@ -284,8 +284,6 @@ line{
 
 /* About Page*/
 
-/* Hero*/
-
 #hero-aboutpage{
 	background: url(images/about/hero-aboutpage.jpg) center center / cover no-repeat;
 }
@@ -394,6 +392,31 @@ line{
 
 #hero-contactpage{
 	background: url(images/contact/hero-contactpage.jpg) center center / cover no-repeat;
+}
+
+.contact-info{
+	padding: 3rem 1rem;
+	background: white;
+	box-shadow: 0 0 2px rgba(6,8,8,0.15);
+
+}
+
+.north-american-contact{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.europe-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apac-contact{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
