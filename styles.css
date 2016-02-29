@@ -22,7 +22,11 @@ small{
     font-weight: bold;
     display: block;
     padding: .75rem 0;
-    font-family: Helvetica;
+}
+
+.bold{
+	font-weight: 600;
+
 }
 
 .brand-red{
@@ -538,6 +542,10 @@ line{
 
     .contact-us-button{
     	padding: 1rem;
+    }
+
+    .about-page-cta a{
+    	text-decoration: none;
     }
 
     /* Contact Page*/
