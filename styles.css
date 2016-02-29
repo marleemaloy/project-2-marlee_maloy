@@ -1,5 +1,14 @@
 /*Layout and reusable classes*/
 
+@font-face{ 
+	font-family:'Open Sans';
+	src: url('OpenSans-Regular-webfont.eot');
+	src: url('OpenSans-Regular-webfont?iefix') format('eot'),
+	     url('OpenSans-Regular-webfont.woff') format('woff'),
+	     url('OpenSans-Regular-webfont.ttf') format('truetype'),
+	     url('OpenSans-Regular-webfont.svg#webfont') format('svg');
+}
+
 body{
 	font: 100%/1.5 "Open Sans", sans-serif;
 	width: 100%;
@@ -420,7 +429,6 @@ line{
 }
 
 .contact-info a{
-	/*text-decoration: none;*/
 	color: #666;
 }
 
