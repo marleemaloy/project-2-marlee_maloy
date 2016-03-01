@@ -759,7 +759,6 @@ line{
     	font-size: 1.55rem;
     }
 
-
     .our-priorities p{
     	padding: 0 7rem;
     }
@@ -780,6 +779,9 @@ line{
 @media screen and (min-width: 1000px) {
 	.contact-info{
 		padding-top: 5rem; 
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
 	}
 }
 
