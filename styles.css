@@ -482,13 +482,17 @@ line{
 	-moz-align-items: center;
 	-ms-align-items: center;
 	align-items: center;
-	padding: 2rem 0 3rem 0
+	padding: 2rem 0 4rem 0
 }
 
 .about-page-cta h3{
     margin-top: 0;
     padding-top: 2rem;
     color: white;
+}
+
+.about-page-cta a {
+	text-decoration: none;
 }
 
 .contact-us-button{
@@ -505,7 +509,7 @@ line{
 .contact-us-button:hover{
 	background: #ff5339;
     box-shadow: 0 0 6px white;
-    transform: scale(1.10);
+    transform: scale(1.05);
 }
 
 /* Contact Page */
