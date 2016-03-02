@@ -435,10 +435,11 @@ line{
 }
 
 .about-us-text{
-	font-size: .90rem;
-	padding: 0 .5rem 1rem .5rem
+	padding: 0 6% 1rem 6%;
 
 }
+
+
 
 /* Our Priorities */
 
@@ -465,6 +466,10 @@ line{
 	text-align: center;
 }
 
+.our-priorities p{
+	padding: 0 6% 1rem 6%;
+}
+
 /* About page Call to Action */
 
 .about-page-cta{
@@ -482,7 +487,7 @@ line{
 	-moz-align-items: center;
 	-ms-align-items: center;
 	align-items: center;
-	padding: 2rem 0 4rem 0
+	padding: 2rem 0 2rem 0
 }
 
 .about-page-cta h3{
@@ -501,7 +506,7 @@ line{
 	border-radius: 10%;
 	border: none;
 	padding: .75rem;
-	margin: 0;
+	margin: 1rem;
 	transition: transform, background, .5s ease;
     transform: scale(1);
 }
@@ -658,7 +663,12 @@ line{
 
 	.about-us-text{
 		font-size: 1rem;
-        padding: 0 2rem 1rem 2rem;
+        padding: 0 15% 1rem 15%;
+    }
+
+    .our-priorities li p{
+    	font-size: 1.28rem;
+        padding: 0 15% 1rem 15%;
     }
 
     .contact-us-button{
@@ -684,20 +694,20 @@ line{
     	font-size: 1.8rem;
     }
 
-    .fa-stack.fa-2x.smaller-contact-icon{
-		font-size: 2.3em;
-	}
-
     .contact p{
     	font-size: 1.16rem;
     }
 
-    .google-maps h2{
-    	font-size: 1.8rem;
-    }
+    .fa-stack.fa-2x.smaller-contact-icon{
+		font-size: 2.3em;
+	}
 
     .google-maps{
     	padding: 4rem 3rem;
+    }
+
+    .google-maps h2{
+    	font-size: 1.8rem;
     }
 
 }
@@ -711,6 +721,14 @@ line{
 @media screen and (min-width: 850px) {
 	.footer-top{
 		padding-left: 3rem;
+	}
+
+	.about-us-text{
+		padding: 0 21% 1rem 21%;
+	}
+
+	.our-priorities li p{
+		padding: 0 21% 1rem 21%;
 	}
 
 	.contact-info h2{
@@ -763,14 +781,6 @@ line{
     	padding-left: 5rem;
     }
 
-    .our-story{
-    	padding: 6rem 8rem;
-    }
-
-    .our-story p{
-    	font-size: 1.5rem;
-    }
-
     .primary-about-content h2{
     	font-size: 2.20rem;
     }
@@ -779,16 +789,24 @@ line{
     	font-size: 1.55rem;
     }
 
-    .our-priorities p{
-    	padding: 0 7rem;
+    .our-story{
+    	padding: 6rem 8rem;
+    }
+
+    .our-story p{
+    	font-size: 1.5rem;
     }
 
     .who-we-are{
     	padding: 4rem 1rem;
     }
 
-    .who-we-are p{
-    	padding: 0 7rem;
+    .about-us-text{
+    	padding: 0 25% 1rem 25%;
+    }
+
+    .our-priorities li p{
+    	padding: 0 25% 1rem 25%;
     }
 
     .google-maps{
@@ -807,6 +825,14 @@ line{
 }
 
 @media screen and (min-width: 1100px) {
+    .main-nav ul{
+		margin-right: 6rem;
+	}
+
+    #logo{
+		margin-left: 6rem;
+	}
+
 	#intro{
 		padding: 7rem 9rem;
 	}
@@ -823,13 +849,13 @@ line{
 		flex-flow: row nowrap;
 	}
 
-	.main-nav ul{
-		margin-right: 6rem;
+	.about-us-text{
+		padding: 0 30% 1rem 30%;
 	}
 
-	#logo{
-		margin-left: 6rem;
-	}
+	 .our-priorities li p{
+    	padding: 0 30% 1rem 30%;
+    }
 
 }
 
