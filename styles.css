@@ -500,6 +500,10 @@ line{
 	text-decoration: none;
 }
 
+.about-page-cta a:hover {
+    border:0;
+}
+
 .contact-us-button{
 	color: white;
 	background: #FF6952;
