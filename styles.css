@@ -487,7 +487,7 @@ line{
 	-moz-align-items: center;
 	-ms-align-items: center;
 	align-items: center;
-	padding: 2rem 0 2rem 0
+	padding: 2rem 0 4rem 0
 }
 
 .about-page-cta h3{
@@ -506,7 +506,7 @@ line{
 	border-radius: 10%;
 	border: none;
 	padding: .75rem;
-	margin: 1rem;
+	margin: 0;
 	transition: transform, background, .5s ease;
     transform: scale(1);
 }
